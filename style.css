@@ -1,0 +1,35 @@
+
+* {
+    margin: 20px;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family:unset;
+}
+header{
+    background-color: rgb(236, 245, 249);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    height: 50px;
+
+}
+nav{
+    padding: 10px;
+    display: flex;
+    gap: 0px;
+}
+.arriba{
+    display: flex;
+    gap: 0px;
+    
+}
+a{
+    color: tomato;
+}
+img {
+    height: 100px;
+
+}
