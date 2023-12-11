@@ -8,7 +8,7 @@
     font-family:unset;
 }
 header{
-    background-color: rgb(236, 245, 249);
+    background-color: rgb(233, 240, 242);
     display: flex;
     justify-content: space-between;
     padding: 50px;
@@ -27,9 +27,46 @@ nav{
     
 }
 a{
-    color: tomato;
+    color: grey;
 }
 img {
     height: 100px;
 
+}
+main{
+    background-color: rgb(233, 240, 242);
+    height: 1000px;
+    padding: 100px;
+    display: flex;
+
+}
+h1{
+    color: grey;
+    font-size: 60px;
+    font-weight:700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: rgb(25, 163, 218);
+    font-size: 20px;
+}
+.destino a{
+    background-color: rgb(171, 169, 169);
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: cursive;
+    
+    
+}
+.imagen{
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+}
+.pie{
+    background-color: beige;
+    color: blue;
+    border-radius: 10px;
 }
